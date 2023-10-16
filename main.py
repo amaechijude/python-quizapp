@@ -8,7 +8,7 @@ print()
 print("There are a total of 6 questions. You can skip a question anytime by pressing 'skip' ")
 input("Press enter to get started...")
 #input the players
-players = input("Enter name of 2 players seperated by a space: ").title()
+players = input("Enter name of players seperated by a space: ").title()
 #convert the input to a list
 players_list = players.split(" ")
 #convert the list to dictionary keys
